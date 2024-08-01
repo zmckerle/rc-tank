@@ -1,1 +1,3 @@
 # rc-tank
+
+ I coded the control systems for a RC-Tank using ESP 32 microcontrollers communicating via esp-now. Which is the built-in ESP communication protocol via addressable MAC addresses. This protocol allows ESP32 devices to communicate with each other using MAC addresses over WiFi. The following codes are the controller code which take the joystick values and send them to the receiving microcontrollers to then output that information to motors to drive the tank, servos to turn the turret up and down, shoot, and stepper motors for the rotational motion of the turret for a full 360 rotation of the turret. And a wiring diagram for the controller. 
